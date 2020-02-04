@@ -17,6 +17,20 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+body, .navbar {
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(left, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    background: -moz-linear-gradient(left, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    background: -o-linear-gradient(left, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    background: linear-gradient(to right, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+}
+
+.navbar {
+    border: none;
 }
