@@ -75,3 +75,8 @@ h1, h2, h3 {
     padding-bottom: 100px;
 }
 
+
+//bandaid solution to hiding devise flash messages on home page (ie. Welcome! You have signed up successfuly.)
+.alert-notice {
+    display: none;
+}
